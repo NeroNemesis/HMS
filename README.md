@@ -14,4 +14,4 @@ docker run -it \
     --name sql-server-HMS \
     mcr.microsoft.com/mssql/server:2022-latest
 `````
-<br>This will install and run sql locally. You can you this `````docker start -i sql-server-2022````` to run the container again letter.
+<br>This will install and run sql locally. You can you this `docker start -i sql-server-2022` to run the container again letter.
