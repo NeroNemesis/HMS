@@ -6,12 +6,12 @@ This would allow added functionalities such as balancing staffing needs with war
 <br>
 #To run the code
 <h3>Step 1 : Download and Run the SQL Server Docker Image</h3>
-```
+`````
 docker run -it \
     -e "ACCEPT_EULA=Y" \
     -e "HMS_PASSWORD=HMSAdmin" \
     -p 1433:1433 \
     --name sql-server-HMS \
     mcr.microsoft.com/mssql/server:2022-latest
-```
-<br>This will install and run sql locally. You can you this ```docker start -i sql-server-2022``` to run the container again letter.
+`````
+<br>This will install and run sql locally. You can you this `````docker start -i sql-server-2022````` to run the container again letter.
